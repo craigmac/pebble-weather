@@ -1,0 +1,36 @@
+{
+  "name": "pebble-weather-app",
+  "author": "C.D. MacEachern",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "pebble-weather-app",
+    "uuid": "70ac5dd9-be09-4f73-97ed-792156b82308",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+	"media": [
+	    {
+		"type": "bitmap",
+		"name": "IMAGE_SPLASH",
+		"file": "images/icon.png"
+		
+	    }
+	    ]
+    }
+  }
+}
